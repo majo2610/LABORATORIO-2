@@ -1,11 +1,11 @@
 
-1.- //*[@id="wt-site-header"]/div/div/div[2]/a/svg/path[1]
-2.-//*[@id="wt-site-header"]/div/div/div[2]/div[1]/div/nav/div[2]/button
-//*[@id="wt-site-header"]/div/div/div[2]/div[1]/div/nav/div[2]
-3.- //div/a[@href="/es-es/store/"]
-4.- //*[@id="js-menu-second-desktop"]/a[6]
-5.- //*[@id="overview-content"]/div/section[3]/div/div[1]/div[6]/a
-6.- //*[@id="overview-content"]/div/section[6]/div/div/div[1]/div/ul/li[6]/p/a
-7.- //*[@id="overview-content"]/div/section[6]/div/div/div[1]/div/div/span/button/svg
-8.- //*[@id="overview-content"]/div/section[6]/div/div/div[2]/div/div/span/a
-9.- //*[@id="overview-content"]/div/section[6]/div/a
+1. //a[@aria-label='Ir a la página principal']
+2. //nav[@class="_mainMenu_5rlvr wt-col-inline"]//button[text()="Para equipos"]
+3. //a[@aria-label='Ir a la tienda']
+4. //a[@class='wt-col-inline menu-second__download-button wt-button wt-button_size_s wt-button_mode_primary']
+5. //*[name()='use' and contains(@href,'#collaboration')]
+6. //a[normalize-space()='IntelliJ Profiler']
+7. //div[@class='wt-offset-top-32 comparison-card__button']//button[@type='button'][normalize-space()='.exe']
+8. //a[@href='/es-es/idea/download/download-thanks.html?platform=windows&code=IIC']
+9. //a[normalize-space()='Comparar ediciones']
+10. //form//span[@class='wt-privacy-notice__message']/following-sibling::*
